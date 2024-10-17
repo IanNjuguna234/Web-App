@@ -1,0 +1,141 @@
+/* src/components/MemberDashboard.css */
+
+/* General Dashboard styling */
+.member-dashboard {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Main Container for side-by-side layout */
+.dashboard-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+/* Account Creation Section */
+.create-account-section {
+  width: 30%;
+  padding: 10px;
+}
+
+.create-account-section input {
+  margin: 10px 0;
+  padding: 10px;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.create-account-section .btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.create-account-section .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Schedule Section */
+.schedules-section {
+  width: 35%;
+  padding: 10px;
+}
+
+.schedule-cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.schedule-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-card h4 {
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.enroll-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.enrolled {
+  background-color: #6c757d;
+  color: white;
+}
+
+.view-coach-btn {
+  background-color: #17a2b8;
+  color: white;
+}
+
+/* Coach Section */
+.coaches-section {
+  width: 30%;
+  padding: 10px;
+}
+
+.coach-cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.coach-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.coach-card h4 {
+  margin-bottom: 10px;
+}
+
+.view-coach-btn {
+  background-color: #17a2b8;
+  color: white;
+}
+/* Logout button at the bottom center */
+.logout-section {
+  position: fixed; /* Change to fixed to keep it at the bottom of the viewport */
+  bottom: 20px;    /* Distance from the bottom */
+  left: 50%;       /* Center the element horizontally */
+  transform: translateX(-50%); /* Adjust position to truly center it */
+  text-align: center; /* Center text inside the button */
+  width: auto;      /* Auto width to fit the content */
+}
+
+.btn-danger {
+  background-color: hsl(115, 70%, 54%);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
